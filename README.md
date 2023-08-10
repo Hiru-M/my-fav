@@ -5,3 +5,6 @@ User can navigate through the index page and view the details through the naviga
 Using the join button in the navigation bar user can fill a form by providing their details and those data will be validating by this website.
 For the desiging process Html,Css and Javascript has been used.
 All the images related to the website are in the img folder.
+Finally add a database using MYSQL to save the data that entered into the html form.
+Following is the sql codes for the database:
+[sql dump.txt](https://github.com/Hiru-M/my-fav/files/12310050/sql.dump.txt)
