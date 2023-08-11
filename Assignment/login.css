@@ -1,0 +1,19 @@
+body{   
+    background-image: url(img/sky.jpeg);  
+}  
+#frm{  
+    border: solid gray 1px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background: rgb(19, 18, 18);  
+    padding: 50px;  
+    color: white;
+}  
+#btn{  
+    color: #fff;  
+    background: #054f91;  
+    padding: 7px;  
+    margin-left: 70%;  
+    
+}

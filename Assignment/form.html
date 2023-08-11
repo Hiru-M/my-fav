@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Fill</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div class="container">
+            <form autocomplete="off" action="processform.php" method="post">
+              
+                <h4>Create Your Account</h4>
+                <br>
+                <div class="input-section">
+                    <label>First Name<span class="required-color">*</span></label>
+                    <input type="text" placeholder="Enter First Name" id="first-name-input" name="firstName"required />
+                    <span id="first-name-error" class="hide required-color error-message">Invalid Input</span>
+                    <span id="empty-first-name" class="hide required-color error-message">First name Cannot be empty</span>
+                </div>
+                <br>
+                <div class="input-section">
+                    <label>Last Name<span class="required-color">*</span></label>
+                    <input type="text" placeholder="Enter Last Name" id="last-name-input" name="lastName" required />
+                    <span id="last-name-error" class="hide required-color error-message">Invalid Input</span>
+                    <span id="empty-last-name" class="hide required-color error-message">Last name Cannot be empty</span>
+                </div>
+                <br>
+                <div class="input-section">
+                    <label>Email<span class="required-color">*</span></label>
+                    <input type="text" placeholder="Enter Email" id="email" name="email" />
+                    <span id="email-error" class="hide required-color error-message">Invalid Email</span>
+                    <span id="empty-email" class="hide required-color error-message">Email Cannot be empty</span>
+                </div>
+                <br>
+                <div class="input-section">
+                    <label>Phone no<span class="required-color">*</span></label>
+                    <input type="text" placeholder="Enter Phone no" id="phone" name="phone"required />
+                    <span id="phone-error" class="hide required-color error-message">Need to have 10 digits</span>
+                    <span id="empty-phone" class="hide required-color error-message">phone no cannot be empty</span>
+                </div>
+                <br>
+                <div class="input-section">
+                    <label>Password<span class="required-color">*</span></label>
+                    <input type="password" placeholder="Enter password" id="password" name="password"required />
+                    <span id="password-error" class="hide required-color error-message">Password should have letters,special characters>=8</span>
+                    <span id="empty-password" class="hide required-color error-message">Password Cannot be empty</span>
+                </div>
+                <br>
+                <div class="input-section">
+                    <label>Confirm Password<span class="required-color">*</span></label>
+                    <input type="password" placeholder="Confirm Password" id="verify-password"name="verifyPass" required />
+                    <span id="verify-password-error" class="hide required-color error-message">Should be as pervious password</span>
+                    <span id="empty-verify-password" class="hide required-color error-message">password Cannot be empty</span>
+                </div>
+                <br>
+                <div class="input-section">
+                    <label>username<span class="required-color">*</span></label>
+                    <input type="text" placeholder="username" id="user" name="user" required />
+                    <span id="empty-username" class="hide required-color error-message">password Cannot be empty</span>
+                </div>
+                <button id="submit-button" name="submit">SignUp</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
